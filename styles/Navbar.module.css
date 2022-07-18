@@ -1,0 +1,49 @@
+.ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(69, 103, 181);
+  overflow: hidden;
+}
+
+.li {
+  margin: 5px;
+  float: left;
+
+}
+
+.liright {
+  border-radius: 25px;
+  margin: 10px;
+  float: right;
+  height: 40px;
+  background-color: rgb(247, 247, 247);
+}
+
+.liaright {
+  display: block;
+  color: rgb(58, 86, 150);
+  text-align: center;
+  padding: 12px 22px;
+  text-decoration: none;
+}
+
+.lia {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px 22px;
+  text-decoration: none;
+}
+
+.liaright:hover {
+  cursor: pointer
+}
+
+.liright a:hover {
+  color: rgb(140, 140, 140);
+}
+
+.li a:hover {
+  background-color: rgb(58, 86, 150);
+}

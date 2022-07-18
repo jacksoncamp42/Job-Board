@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+.title {
+    font-size: 30px;
+    font-weight: 200;
+    text-align: center;
+    font-family: Helvetica
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search {
+    margin-bottom: 10px;
+}
+
+.search input {
+    width: 400px;
+    height: 40px;
+    border-color: rgb(69, 103, 181);
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+.search input::placeholder {
+    font-size: 14px;
+    color: rgb(106, 138, 213);
+    padding-left: 5px;
+}
+
+.search button {
+    margin-left: 5px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: white;
+    background-color: rgb(69, 103, 181);
+}
+
+.search button:hover {
+    background-color: rgb(58, 86, 150);
+    cursor: pointer
+}
+
+.filter label {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.filter select {
+    height: 30px;
+    width: 150px;
+    padding: 3px;
+    margin-right: 20px;
+    border-radius: 5px;
+}

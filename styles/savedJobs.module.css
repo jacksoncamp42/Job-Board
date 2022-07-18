@@ -1,0 +1,97 @@
+.loggedOut {
+  margin-top: 100px;
+  text-align: center;
+  font-family: 'Helvetica';
+  font-weight: 200;
+  margin-bottom: 100px;
+}
+
+.nothingSaved {
+  margin-top: 100px;
+  text-align: center;
+  font-family: 'Helvetica';
+  font-weight: 200;
+  margin-bottom: 100px;
+}
+
+.container {
+  padding-top: 2rem
+}
+
+.jobsection {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.jobslist {
+  width: 100vw;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+}
+
+/* JOB ITEM STYLING */
+
+.position {
+  margin: 0%
+}
+
+.bookmark {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  font-size: 20px;
+  color: rgb(69, 103, 181);
+
+}
+
+.bookmark:hover {
+  cursor: pointer;
+}
+
+.positioncontainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.jobitem {
+  padding: 30px;
+  border: 1px solid black;
+  border-radius: 15px;
+  width: 350px;
+  height: 350px;
+  margin: 20px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+.jobitem:hover {
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+  transition: 0.3s ease-in;
+
+}
+
+.type {
+  font-size: medium;
+  font-weight: bold;
+}
+
+.jobitem h3 p {
+  margin-left: 20px;
+}
+
+@media only screen and (max-width: 1300px) {
+  .jobslist {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .jobslist {
+    grid-template-columns: 1fr;
+  }
+}

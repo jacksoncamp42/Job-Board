@@ -1,0 +1,79 @@
+.notLoggedIn {
+  margin-top: 100px;
+  text-align: center;
+  font-family: 'Helvetica';
+  font-weight: 200;
+  margin-bottom: 100px;
+}
+
+.textOverflow {
+  color: red;
+  font-size: smaller;
+  margin-left: 15px
+}
+
+.container {
+  padding: 0 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form input,
+.form select {
+  margin-left: 5px;
+  height: 20px;
+}
+
+.form input {
+  width: 200px;
+}
+
+.form select {
+  height: 30px;
+}
+
+.form input::placeholder {
+  padding-left: 3px;
+  color: rgb(106, 138, 213);
+}
+
+.form label {
+  margin-bottom: 15px;
+}
+
+.submitBtn {
+  margin-left: 0px;
+  height: 40px;
+  width: 100px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  color: white;
+  background-color: rgb(69, 103, 181);
+}
+
+.container div {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.container label {
+  margin-right: 50px
+}
+
+.submitBtn:hover {
+  cursor: pointer;
+  background-color: rgb(58, 86, 150);
+}
+
+.description {
+  position: relative;
+  bottom: 70px;
+}
