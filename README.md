@@ -10,7 +10,7 @@
 - Saved Jobs Page: Page with all saved job listings in person's account.
 - Add Listing Page: User can add a job listing to the home page.
 
-**Built With:** TypeScript, Firebase
+**Built With:** TypeScript, React, Firebase
 
 ## Demo
 
