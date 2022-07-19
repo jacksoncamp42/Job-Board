@@ -2,7 +2,7 @@
 
 **Website:** [https://job-board-alpha.vercel.app/](https://job-board-alpha.vercel.app/)
 
-**About:** We've built a website allowing users to post and view job listings. Users must log in with a Google account to save, delete, and add their own listings. Users can only delete jobs and access bookmarked jobs that are linked to their accounts. 
+**About:** A web app allowing users to post and view job listings. Users must log in with a Google account to save, delete, and add their own listings. Users can only delete jobs and access bookmarked jobs that are linked to their accounts. 
 
 **Key Features** 
 - Login: Firebase authentication login with Google account.  
