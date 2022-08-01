@@ -1,4 +1,4 @@
-# Job Postings App
+# Job Listings App
 
 **Website:** [https://job-board-alpha.vercel.app/](https://job-board-alpha.vercel.app/)
 
